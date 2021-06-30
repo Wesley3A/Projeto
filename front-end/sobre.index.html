@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo_sobre_Suport.css"> <!--styles_Menu-->
+	<title>Dados sobre este Site</title>
+</head>
+	<body>
+		 <!--Menu-->
+    <nav class="navigation">
+      <ul class="menu">
+        <!--<li class="active"><a href="#">Home</a></li>!-->
+        <li>
+          <a href="Principal_index.html">Menu<span class="fas fa-chevron-down"></span></a>
+          <div class="submenu">
+            <div class="col">
+              <ul>
+                <li><a href="dados_usuario.index.html">Usuário</a></li>
+              </ul>
+            </div>
+        </li>
+        <li>
+          <a href="#">Tarefas<span class="fas fa-chevron-down"></span></a>
+          <div class="submenu">
+            <div class="col">
+              <ul>
+                <li><a href="create_tarefa.html">Criar tarefa</a></li>
+                <li><a href="altera_tarefa.index.html">Alterar tarefa</a></li>
+                <li><a href="consulta_tarefas.html">Consultar tarefas</a></li>
+                <li><a href="excluir_tarefa.index.html">Excluir tarefa</a></li>
+              </ul>
+            </div>
+        </li>
+        
+        <li><a href="sobre.index.html">Sobre<span class="fas fa-chevron-down"></span></a></li>
+        <li><a href="suporte.index.html">Suporte<span class="fas fa-chevron-down"></span></a></li>
+        <li><a href="login_usuario.html">Sair<span class="fas fa-chevron-down"></span></a></li>
+      </ul>
+    </nav>
+    <!--Menu -->
+		<h1>Este site foi desenvolvido afim de atender os requisitos abaixo:</h1>
+
+		<ol>
+			<li><p>Sistema = Nome do sistema (cada aluno terá seu nome no sistema com sistema_Aluno)</p></li>
+			<li><p>Projeto = Nome do projeto para gerar as tarefas, onde o id_criador é o id do usuário que criou o projeto e id_sistema é 
+			o id do sistema vinculado ao projeto</p></li>
+			<li><p>Prioridade = uma descrição de prioridade (Alta, Média, Baixa...).</p></li>
+			<li><p>Usuario = nome de um usuário e id</p></li>
+			<li><p>Projeto_usuario = vínculo dos usuários com o projeto, para em uma plataforma real permitir acesso somente a usuários vinculados</p></li>
+			<li><p>Comentario = id_usuario criador do comentário, id_pai_comentario = o id do comentário anterior, como se fosse uma resposta</p></li>
+			<li><p>Grupo = Grupo da tarefa, por exemplo, Grupo Comissões, tarefas relacionadas a comissões estariam relacionadas a este grupo, para posteriores relatórios</p></li>
+			<li><p>Tarefa = Tarefas propriamente ditas, id_projeto vinculado, id_criado = usuário criador, id_dev = desenvolvedor a fazer, id_pai_tarefa se tiver uma tarefa anteriormente criada que 
+gerou essa tarefa, por exemplo, colocar um campo no formulário, gerou uma tarefa de alteração da base de dados para comportar este novo campo, id_tipo_tarefa tipo da tarefa, is_status_tarefa = status da tarefa, tempo_realizado = tempo para concluir executado, id_priorida = prioridade da tarefa, complexidade = nível de complexidade da tarefa, impacto = ímpacto positivo no sistema, id_grupo</p></li>
+			<li><p>Tarefa_status = status das tarefas</li>
+			<li><p>Tarefa_tipo = tipo das tarefas (desenvolvimento, análise)</li>
+		</ol>
+		<p>Atendidas pelo aluno Wesley Tres Antunes, com o número da matrículo 201915823</p>
+	</body>
+</html>
